@@ -1,0 +1,36 @@
+class Solution
+{
+    public:
+    Node *compute(Node *head)
+    {
+           Node *first = head, *second = head -> next;
+      		 while(second -> next != NULL) {
+        	 if(second -> next -> data > second -> data) {
+                
+                first -> next = second -> next;
+                first = head;
+                second = head -> next;
+                
+                continue;
+                
+            }
+            
+            first = first -> next;
+            second = second -> next;
+        }
+        
+        first = head;
+        second = head -> next;
+        
+        if(second -> data > first -> data) {
+            if(first == head) {
+                head = second;
+                first = head;
+                second = head -> next;
+            }
+        }
+        
+        return head;
+    }
+    
+};
