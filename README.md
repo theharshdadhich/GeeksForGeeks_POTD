@@ -1,15 +1,12 @@
 # GeeksForGeeks_POTD
 # Daily Solutions for GeeksforGeeks (GFG)
 
-![GFG Logo](https://raw.githubusercontent.com/geeksforgeeks/gfg-content/master/logo/gfg-logo.png)
-
 This repository contains a collection of daily solutions for coding problems from GeeksforGeeks (GFG). Each day, a new problem is selected from GFG's vast repository of programming challenges, and a solution is provided here along with explanations and code snippets.
 
 ## Table of Contents
 
 - [About](#about)
 - [Problem Solving](#problem-solving)
-- [Contributing](#contributing)
 - [Usage](#usage)
 - [Resources](#resources)
 - [Contact](#contact)
@@ -30,9 +27,7 @@ Each day's problem solution is organized in the following manner:
 - **Space Complexity:** Analysis of the space complexity of the solution.
 - **Input/Output Examples:** Sample input and output examples to illustrate the usage of the solution.
 
-## Contributing
 
-Contributions are welcome and highly encouraged! If you have a better solution, an alternate approach, or a new problem to add, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Usage
 
@@ -42,11 +37,11 @@ To run or test the code, make sure you have the required programming language's 
 
 ## Resources
 
-In addition to the problem solutions, you can find helpful resources related to coding, algorithms, and data structures in the [resources](resources) directory. These resources include links to relevant GFG articles, video explanations, and other online tutorials.
+In addition to the problem solutions, you can find helpful resources related to coding, algorithms, and data structures in the directory. These resources include links to relevant GFG articles, video explanations, and other online tutorials.
 
 ## Contact
 
-If you have any questions, suggestions, or concerns, feel free to open an issue in the repository or contact us at example@email.com.
+If you have any questions, suggestions, or concerns, feel free to open an issue in the repository or contact us at harshdadhich1109@gmail.com.
 
 ## License
 
