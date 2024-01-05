@@ -1,0 +1,16 @@
+lass Solution{
+	public:
+	int M=1e9+7;
+    int TotalWays(int n)
+    {
+        int a=1;
+        int b=1;
+        for(int i=1;i<n;i++){
+           int c=a;
+           a=(a+b)%M;
+           b=(c)%M;
+        }
+        int temp=(a+b)%M;
+        return (temp*1LL*temp)%M;
+	}
+};
